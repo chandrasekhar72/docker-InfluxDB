@@ -1,0 +1,1 @@
+docker run -d --name=influxDB -p 8086:8086 -v "influxData:/var/lib/influxdb2" -v "influxConfig:/etc/influxdb2" influxdb:latest
